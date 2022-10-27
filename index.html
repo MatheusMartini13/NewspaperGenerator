@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <script src="js.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Criador do Jornal</h1>
+
+  <form action="">
+    <select name="newsType" id="newsType">
+      <option value="front">Capa</option>
+      <option value="imgUp">Notícia com Imagem no Topo</option>
+      <option value="noImg2">Notícia sem Imagem duas colunas</option>
+      <option value="imgSide">Imagem na lateral</option>
+      <option value="noImg3">Sem imagem três colunas</option>
+      <option value="imgUpAndDown">Três colunas imagem no início e no fim</option>
+      <option value="imgDown">Imagem em baixo</option>
+      <option value="wanted">Lista de Cartazes de Procurado</option>
+    </select>
+    <button id="newNews">Nova Seção</button>
+    <section id="newNewsSection"></section>
+  </form>
+  <br><br>
+  <button id="createCode">Gerar Jornal</button>
+  <br><br>
+  <form action="">
+    <textarea name="finalCode" id="finalCode" cols="100" rows="15" placeholder="O code da notícia sairá aqui."></textarea>
+  </form>
+</body>
+</html>
